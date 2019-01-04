@@ -1,2 +1,5 @@
 **/.idea
 mtg-sim.iml
+**/out
+**/resources
+**/lib

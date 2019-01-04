@@ -5,6 +5,6 @@ import java.nio.file.Paths
 
 fun main(args: Array<String>) {
     val cards = JsonIO.cardsFromJson(Paths.get("./resources/AllCards_4-2_2018-12-31.json"))
-    val test = cards.first { card -> card.name.contains("Jodah, Archmage Eternal") }
+    val test = cards.first { card -> card.name.contains("Goblin Banner") }
     println(test)
 }
